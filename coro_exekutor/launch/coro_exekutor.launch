@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+	<!-- Coro Exekutor -->
+	<node name="coro_exekutor" pkg="coro_exekutor" type="coro_exekutor_node" args="--peis-id 998"/>
+</launch>	
