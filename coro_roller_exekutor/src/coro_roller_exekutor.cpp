@@ -39,15 +39,15 @@ void CoroRollerExekutor::actionThread()
 	for(int i = 0; i<rollerDirection.size(); i++)
 		rollerDirection[i] = toupper(rollerDirection[i]);
 
-	if(rollerDirection.compare("IN") == 0)
+	if(rollerDirection.compare("LOAD") == 0)
 	{
 		message.request.type = cognidrive_ros::Roller::Request::IN;
-		ROS_INFO("Moving roller in.");
+		ROS_INFO("Moving roller in (LOAD).");
 	}
-	else if (rollerDirection.compare("OUT") == 0)
+	else if (rollerDirection.compare("UNLOAD") == 0)
 	{
 		message.request.type = cognidrive_ros::Roller::Request::OUT;
-		ROS_INFO("Moving roller out.");
+		ROS_INFO("Moving roller out (UNLOAD).");
 	}
 
 	roller_client_.call(message);

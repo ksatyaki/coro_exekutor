@@ -7,7 +7,6 @@ project(coro_exekutor)
 find_package(catkin REQUIRED COMPONENTS
   coro_roller_exekutor
   load_map_exekutor
-  look_exekutor
   miradock_exekutor
   move_to_exekutor
   cam_interface

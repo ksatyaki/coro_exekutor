@@ -44,12 +44,10 @@
   <build_depend>coro_roller_exekutor</build_depend>
   <build_depend>cam_interface</build_depend>
   <build_depend>load_map_exekutor</build_depend>
-  <build_depend>look_exekutor</build_depend>
   <build_depend>miradock_exekutor</build_depend>
   <build_depend>move_to_exekutor</build_depend>
   <run_depend>coro_roller_exekutor</run_depend>
   <run_depend>load_map_exekutor</run_depend>
-  <run_depend>look_exekutor</run_depend>
   <run_depend>miradock_exekutor</run_depend>
   <run_depend>cam_interface</run_depend>
   <run_depend>move_to_exekutor</run_depend>

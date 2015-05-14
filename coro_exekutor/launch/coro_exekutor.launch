@@ -2,5 +2,5 @@
 
 <launch>
 	<!-- Coro Exekutor -->
-	<node name="coro_exekutor" pkg="coro_exekutor" type="coro_exekutor_node" args="--peis-id 998"/>
+	<node name="coro_exekutor" pkg="coro_exekutor" type="coro_exekutor" args="--peis-id 998 --peis-connect tcp://159.213.137.135"/>
 </launch>	
