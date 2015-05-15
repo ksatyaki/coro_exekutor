@@ -23,14 +23,14 @@ namespace exekutor {
 		
 		if(option.compare("LOAD") == 0 || option.compare("load") == 0) {
 			ROS_INFO("Waiting for tray to be loaded.");
-			while(status_value_.compare("true") != 0 && counter == 0) {
+			while(status_value_.compare("true") != 0 && counter != 0) {
 				usleep(100000);
 				counter--;
 			}
 		}
 		else {
 			ROS_INFO("Waiting for tray to be unloaded.");
-			while(status_value_.compare("false") != 0 && counter == 0) {
+			while(status_value_.compare("false") != 0 && counter != 0) {
 				usleep(100000);
 				counter--;
 			}
