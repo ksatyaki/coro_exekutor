@@ -4,7 +4,7 @@
 #include <exekutor/load_map_exekutor.h>
 #include <exekutor/coro_roller_exekutor.h>
 #include <exekutor/miradock_exekutor.h>
-
+#include <exekutor/coro_tray_exekutor.hpp>
 
 #include<signal.h>
 
@@ -46,6 +46,7 @@ int main(int argn, char* args[])
 	exekutor::MiradockExekutor MDX("coro", "miradock");
 	exekutor::LoadMapExekutor LMX("coro", "loadmap");
 	exekutor::CoroRollerExekutor CRX ("coro", "roller");
+	exekutor::CoroTrayExekutor CTX ("coro", "tray");
 
 	exekutor::ActionExekutor::waitForLink();
 

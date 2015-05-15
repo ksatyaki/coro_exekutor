@@ -6,6 +6,7 @@ project(coro_exekutor)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   coro_roller_exekutor
+  coro_tray_exekutor
   load_map_exekutor
   miradock_exekutor
   move_to_exekutor
