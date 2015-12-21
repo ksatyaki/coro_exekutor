@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+  <name>coro_lift_exekutor</name>
+  <version>0.0.1</version>
+  <description>The coro_lift_exekutor package</description>
+  <maintainer email="chitt@live.in">Chittaranjan Srinivas Swaminathan</maintainer>
+  <license>GPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>action_exekutor</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>move_base_msgs</build_depend>
+  <build_depend>cam_interface</build_depend>
+  <build_depend>actionlib</build_depend>
+
+  <run_depend>action_exekutor</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
